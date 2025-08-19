@@ -1,0 +1,36 @@
+body{
+  position:relative;
+}
+.sticky-top{
+  position:sticky;
+  top:0;
+  z-index:1024;
+}
+.bannertop{
+  margin-top:100px;
+}
+.maintxt{ 
+    font-size: 72px;
+    font-weight: bold;
+    text-align: left;
+  letter-spacing:2px;
+}
+.btc{
+  padding:8px 35px !important; 
+  background:#0d6efd !important;
+  border:none !important;
+  color:#fff !important;
+  border-radius:20px !important;
+} 
+
+@media only screen and (max-width: 991px) {
+  header{
+  background:none;
+  }
+  .maintxt {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+}
+}
